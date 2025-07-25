@@ -54,11 +54,11 @@ export const LocationPreferences = ({ preferences, onPreferencesChange }: Locati
               <SelectValue placeholder="Select distance" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="0.5">Within 0.5 miles</SelectItem>
-              <SelectItem value="1">Within 1 mile</SelectItem>
-              <SelectItem value="3">Within 3 miles</SelectItem>
-              <SelectItem value="5">Within 5 miles</SelectItem>
-              <SelectItem value="10">Within 10 miles</SelectItem>
+              <SelectItem value="1">Within 1 km</SelectItem>
+              <SelectItem value="3">Within 3 km</SelectItem>
+              <SelectItem value="5">Within 5 km</SelectItem>
+              <SelectItem value="10">Within 10 km</SelectItem>
+              <SelectItem value="15">Within 15 km</SelectItem>
             </SelectContent>
           </Select>
         </div>
