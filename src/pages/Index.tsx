@@ -38,10 +38,10 @@ const Index = () => {
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="space-y-2">
               <h1 className="text-4xl md:text-6xl font-bold text-white">
-                Discover Your Vibe
+                CHILLPILOT
               </h1>
               <p className="text-xl md:text-2xl text-white/90">
-                Find local spots that match your mood perfectly
+                Your mood-guided local discovery companion
               </p>
             </div>
             <div className="flex items-center justify-center space-x-6 text-white/80">
