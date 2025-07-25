@@ -61,7 +61,46 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Mood-based colors
+				calm: {
+					DEFAULT: 'hsl(var(--calm))',
+					foreground: 'hsl(var(--calm-foreground))'
+				},
+				energetic: {
+					DEFAULT: 'hsl(var(--energetic))',
+					foreground: 'hsl(var(--energetic-foreground))'
+				},
+				creative: {
+					DEFAULT: 'hsl(var(--creative))',
+					foreground: 'hsl(var(--creative-foreground))'
+				},
+				social: {
+					DEFAULT: 'hsl(var(--social))',
+					foreground: 'hsl(var(--social-foreground))'
+				},
+				peaceful: {
+					DEFAULT: 'hsl(var(--peaceful))',
+					foreground: 'hsl(var(--peaceful-foreground))'
+				},
+				adventurous: {
+					DEFAULT: 'hsl(var(--adventurous))',
+					foreground: 'hsl(var(--adventurous-foreground))'
 				}
+			},
+			backgroundImage: {
+				'gradient-calm': 'var(--gradient-calm)',
+				'gradient-energetic': 'var(--gradient-energetic)',
+				'gradient-creative': 'var(--gradient-creative)',
+				'gradient-social': 'var(--gradient-social)',
+				'gradient-peaceful': 'var(--gradient-peaceful)',
+				'gradient-adventurous': 'var(--gradient-adventurous)',
+				'gradient-hero': 'var(--gradient-hero)'
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'medium': 'var(--shadow-medium)',
+				'mood': 'var(--shadow-mood)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
